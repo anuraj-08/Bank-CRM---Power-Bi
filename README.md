@@ -5,13 +5,13 @@ The dataset covers **10,000 customers** across **France, Germany, and Spain**.
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 The goal of this project was to analyze customer behavior, product usage, and churn risk across multiple geographies and demographics.  
 The process included data modeling, SQL-based KPI computation, and Power BI dashboarding for decision-ready insights.
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 - **Churn Rate:** 20.4% overall (~2,000 customers lost; ₹185.6M impact)  
 - **Inactive Accounts:** 51.5% of customers are inactive  
 - **Zero-Balance Accounts:** 4,000 customers hold zero balance  
@@ -21,7 +21,7 @@ The process included data modeling, SQL-based KPI computation, and Power BI dash
 
 ---
 
-## 🧱 Data Model
+## Data Model
 The project uses a **Star Schema** for efficient relational querying.
 
 **Fact Table:**  
@@ -46,7 +46,7 @@ The project uses a **Star Schema** for efficient relational querying.
 
 ---
 
-## 🧩 Project Workflow
+## Project Workflow
 1. **Data Import & Setup** – Loaded raw CSV into Power Query, cleaned and loaded into SQL.  
 2. **Data Preparation** – Created calculated fields (Exit_Year, Tenure_Group, Credit_Score_Category).  
 3. **SQL Analysis** – Derived churn %, tenure distribution, product adoption, and regional segmentation.  
@@ -54,7 +54,7 @@ The project uses a **Star Schema** for efficient relational querying.
 
 ---
 
-## 📈 Dashboard Features
+## Dashboard Features
 - KPIs: **Churn %**, **Active vs Inactive**, **Avg Tenure**, **Zero-Balance Accounts**  
 - Visuals: Churn by Year, Product Usage, Tenure, Region, and Credit Score  
 - Slicers: Region, Gender, Credit Score, and Tenure  
@@ -62,7 +62,7 @@ The project uses a **Star Schema** for efficient relational querying.
 
 ---
 
-## 💡 Recommendations
+## Recommendations
 - **Retention:** Introduce loyalty renewal offers at ~3.5 years to reduce churn during 4–5 year tenure.  
 - **Cross-Sell:** Move 1-product users to 2-product bundles (Savings → Card → Loan).  
 - **Reactivation:** Target inactive and zero-balance accounts with auto-sweep and RD incentives.  
@@ -71,7 +71,7 @@ The project uses a **Star Schema** for efficient relational querying.
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 - Designed a **Star Schema** for efficient relational analysis.  
 - Created SQL logic to automate churn segmentation and KPI generation.  
 - Built an interactive Power BI dashboard to visualize insights dynamically.  
